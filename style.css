@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    color: #848199;
+}
+
+.sub-text {
+    color: #848199;
+}
+
+.bg-button {
+    background-color: rgba(244, 150, 209, 0.1);
+    color: #0d6efd;
+}
+
+.bg-button:hover {
+    color: white;
+}
+
+.text-primary:hover {
+    color: white;
+}
+
+#active {
+    background: #0d6efd;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    color: white;
+    transition: box-shadow ease-in-out 250ms;
+}
+
+#active:hover {
+    box-shadow: 0px 42px 34px rgba(245, 63, 142, 0.25);
+}
+
+.active-text {
+    color: white;
+}
+
+.active-btn {
+    background-color: white;
+    color: #0d6efd;
+}
+
+.start-90 {
+    left: 90%;
+    background-color: #FF4E4E;
+}
+
+.card {
+    border-radius: 26px;
+    transition: box-shadow ease-in-out 250ms;
+}
+
+.card:hover {
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+
+
+.testimonial-item {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
